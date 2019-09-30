@@ -106,11 +106,12 @@ win_height = 400
 # 2.3 ball
 radius = 20 
 ball_vel = []# [random.randrange(2,4), random.randrange(1,3)]
+ball_pos = []#= [win_width//2, win_height//2]
 #if random.randrange(0,2) == 0:
 #    ball_vel[x] *= -1
 #if random.randrange(0,2) == 0:
 #    ball_vel[y] *= -1
-ball_pos = []#= [win_width//2, win_height//2]
+
 print(ball_vel)
 print(ball_pos)  
 # 2.4 paddles
