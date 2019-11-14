@@ -53,6 +53,9 @@ pad2_vel = [0,0]
 pad1_pos = [0,                       win_height//2 - pad_height//2]
 pad2_pos = [win_width - pad_width,   win_height//2 - pad_height//2] 
 
+pad_pos = [pad1_pos, pad2_pos]
+pad_vel = [pad1_vel, pad2_vel] 
+
 
 # 3. Launch a game window
 window = pygame.display.set_mode((win_width, win_height))
